@@ -9,7 +9,7 @@ default_prefix: /ndn/gr/edu/mmlab1
 advertised_prefixes: [/ndn/gr/edu/mmlab1, /ndn/gr/aueb]
 routable_prefixes: [/ndn/gr/edu/mmlab1]
 router_name: mmlab1 
-http_access: https
+http_access: http
 memsize: 2
 neighbors: 
   WU: {link_cost: 75}

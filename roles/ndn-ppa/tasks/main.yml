@@ -25,7 +25,8 @@
 - name: install ndn packages (ndn-cxx, nfd, ndnsec)
   apt:
     #name: ['ndn-cxx', 'ndn-cxx-dev', 'nfd', 'ndnsec', 'nlsr', 'libndn-cxx', 'libndn-cxx-dev', 'libndn-cxx-dbg', 'libpsync', 'ndn-autoconfig-server','ndn-dissect', 'ndn-tools', 'ndnchunks', 'ndndump', 'ndnpeek', 'ndnping', 'repo-ng' , 'nfd-status-http-server' ]
-    name: ['nfd', 'ndnsec', 'nlsr', 'libndn-cxx', 'libndn-cxx-dev', 'libndn-cxx-dbg', 'libpsync', 'ndn-autoconfig-server','ndn-dissect', 'ndn-tools', 'ndnchunks', 'ndndump', 'ndnpeek', 'ndnping', 'repo-ng' , 'nfd-status-http-server' ]
+    name: ['nfd', 'ndnsec', 'nlsr', 'libndn-cxx', 'libndn-cxx-dev', 'libpsync', 'ndn-autoconfig-server','ndn-dissect', 'ndn-tools', 'ndnchunks', 'ndndump', 'ndnpeek', 'ndnping', 'repo-ng' , 'nfd-status-http-server' ]
+    # name: ['nfd', 'ndnsec', 'nlsr', 'libndn-cxx', 'libndn-cxx-dev', 'libndn-cxx-dbg', 'libpsync', 'ndn-autoconfig-server','ndn-dissect', 'ndn-tools', 'ndnchunks', 'ndndump', 'ndnpeek', 'ndnping', 'repo-ng' , 'nfd-status-http-server' ]
     update_cache: yes
     autoclean: yes
     autoremove: yes

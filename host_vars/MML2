@@ -9,7 +9,7 @@ default_prefix: /ndn/gr/edu/mmlab2
 advertised_prefixes: [/ndn/gr/edu/mmlab2]
 routable_prefixes: [/ndn/gr/edu/mmlab2]
 router_name: mmlab12
-http_access: https
+http_access: http
 memsize: 2
 neighbors: 
   #LIP6: {link_cost: 35}

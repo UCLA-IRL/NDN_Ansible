@@ -56,7 +56,7 @@
     path: "/etc/cron.allow"
     state: touch
   become: yes
-  when: (ansible_distribution == "Ubuntu" and ansible_distribution_major_version  == "20")
+  # when: (ansible_distribution == "Ubuntu" and ansible_distribution_major_version  == "20")
 
 
 # users root, {{ansible_user}}, {{ansible_user}}, and ndnsec should have permission to use crontabs
@@ -375,7 +375,9 @@
 - name: install general ubuntu packages 
   apt:
     #name: ['build-essential', 'git', 'openssl', 'python-openssl', 'libffi-dev', 'python-cffi', 'libssl-dev', 'expat', 'libexpat-dev', 'libpcap-dev', 'gawk', 'texinfo', 'asciidoc', 'finger', 'software-properties-common', 'ntp', 'autoconf', 'libtool', 'python-dev', 'g++', 'autotools-dev', 'libicu-dev', 'libbz2-dev', 'sqlite3', 'pkg-config', 'libssl-dev', 'libsqlite3-dev', 'libcrypto++-dev', 'aptitude', 'python3-setuptools', 'python3-pkg-resources', 'python3-dev', 'python3-pip', 'python-netaddr', 'fail2ban' , 'iperf', 'iperf3' , 'mongodb' ,  'python-configparser' , 'nginx', 'screen' , 'systemd-timesyncd' ]
-    name: ['build-essential', 'git', 'openssl', 'python-openssl', 'libffi-dev', 'python-cffi', 'libssl-dev', 'expat', 'libexpat-dev', 'libpcap-dev', 'gawk', 'texinfo', 'asciidoc', 'finger', 'software-properties-common', 'autoconf', 'libtool', 'python-dev', 'g++', 'autotools-dev', 'libicu-dev', 'libbz2-dev', 'sqlite3', 'pkg-config', 'libssl-dev', 'libsqlite3-dev', 'libcrypto++-dev', 'aptitude', 'python3-setuptools', 'python3-pkg-resources', 'python3-dev', 'python3-pip', 'python-netaddr', 'fail2ban' , 'iperf', 'iperf3' , 'mongodb' ,  'python-configparser' , 'screen' , 'systemd-timesyncd' ]
+    name: ['build-essential', 'git', 'openssl', 'python3-openssl', 'libffi-dev', 'python3-cffi', 'libssl-dev', 'expat', 'libexpat-dev', 'libpcap-dev', 'gawk', 'texinfo', 'asciidoc', 'finger', 'software-properties-common', 'autoconf', 'libtool', 'g++', 'autotools-dev', 'libicu-dev', 'libbz2-dev', 'sqlite3', 'pkg-config', 'libssl-dev', 'libsqlite3-dev', 'libcrypto++-dev', 'aptitude', 'python3-setuptools', 'python3-pkg-resources', 'python3-dev', 'python3-pip', 'fail2ban' , 'iperf', 'iperf3', 'screen' , 'systemd-timesyncd', 'nginx', 'certbot']
+    # ubuntu 22
+    # name: ['build-essential', 'git', 'openssl', 'python3-openssl', 'libffi-dev', 'python3-cffi', 'libssl-dev', 'expat', 'libexpat-dev', 'libpcap-dev', 'gawk', 'texinfo', 'asciidoc', 'finger', 'software-properties-common', 'autoconf', 'libtool', 'g++', 'autotools-dev', 'libicu-dev', 'libbz2-dev', 'sqlite3', 'pkg-config', 'libssl-dev', 'libsqlite3-dev', 'libcrypto++-dev', 'aptitude', 'python3-setuptools', 'python3-pkg-resources', 'python3-dev', 'python3-pip', 'python3-netaddr', 'fail2ban' , 'iperf', 'iperf3' , 'mongodb-org', 'screen' , 'systemd-timesyncd' ]
     update_cache: yes
     autoclean: yes
     autoremove: no
@@ -391,25 +393,70 @@
   when: ansible_distribution == "Ubuntu" and ansible_distribution_major_version  == "18"
   ignore_errors: yes
 
-- name: install python3-certbot-nginx for Ubuntu 20.04
+- name: install python-netaddr for Ubuntu 20.04
   apt:
-    name: ['python3-certbot-nginx', 'nginx', 'certbot']
+    name: ['python-dev']
     update_cache: yes
     autoclean: yes
     autoremove: yes
   when: ansible_distribution == "Ubuntu" and ansible_distribution_major_version  == "20"
   ignore_errors: yes
 
-- name: install python3-pip for Ubuntu 20.04
+- name: install python3-pip, python-dev, python-configparser, python3-certbot-nginx, mongodb for Ubuntu 20.04
   apt:
-    name: ['python3-pip']
+    name: ['python3-pip', 'python-dev', 'python3-certbot-nginx', 'python-configparser', 'mongodb']
     update_cache: yes
     autoclean: yes
     autoremove: yes
   when: ansible_distribution == "Ubuntu" and ansible_distribution_major_version  == "20"
   ignore_errors: yes
 
-- name: install python-pip
+# - name: install python-dev for Ubuntu 20.04
+#   apt:
+#     name: ['python-dev']
+#     update_cache: yes
+#     autoclean: yes
+#     autoremove: yes
+#   when: ansible_distribution == "Ubuntu" and ansible_distribution_major_version  == "20"
+#   ignore_errors: yes
+
+# - name: install python3-certbot-nginx for Ubuntu 20.04
+#   apt:
+#     name: ['python3-certbot-nginx', 'nginx', 'certbot']
+#     update_cache: yes
+#     autoclean: yes
+#     autoremove: yes
+#   when: ansible_distribution == "Ubuntu" and ansible_distribution_major_version  == "20"
+#   ignore_errors: yes
+
+# - name: install python3-pip for Ubuntu 20.04
+#   apt:
+#     name: ['python3-pip']
+#     update_cache: yes
+#     autoclean: yes
+#     autoremove: yes
+#   when: ansible_distribution == "Ubuntu" and ansible_distribution_major_version  == "20"
+#   ignore_errors: yes
+
+# - name: install mongodb for Ubuntu 20.04
+#   apt:
+#     name: ['mongodb']
+#     update_cache: yes
+#     autoclean: yes
+#     autoremove: yes
+#   when: ansible_distribution == "Ubuntu" and ansible_distribution_major_version  == "20"
+#   ignore_errors: yes
+
+- name: install mongodb-org, python3-netaddr for Ubuntu 22.04
+  apt:
+    name: ['mongodb-org', 'python3-netaddr']
+    update_cache: yes
+    autoclean: yes
+    autoremove: yes
+  when: ansible_distribution == "Ubuntu" and ansible_distribution_major_version  == "22"
+  ignore_errors: yes
+
+- name: install python-pip for Ubuntu 18
   apt:
     name: ['python-pip']
     update_cache: yes
@@ -418,7 +465,7 @@
   when: ansible_distribution == "Ubuntu" and ansible_distribution_major_version  == "18"
   ignore_errors: yes
 
-- name: install general ubuntu packages 
+- name: install general ubuntu packages for Ubuntu 16
   apt:
     name: [ 'python-software-properties' , 'liblog4cxx10-dev' ]
     update_cache: yes

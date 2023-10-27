@@ -9,7 +9,7 @@ default_prefix: /ndn/in/ac/iiith
 advertised_prefixes: [/ndn/in/ac/iiith]
 routable_prefixes: [/ndn/in/ac/iiith]
 router_name: ndntestbed 
-http_access: https
+http_access: http
 memsize: 2
 neighbors: 
   ITB: {link_cost: 40}

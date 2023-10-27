@@ -20,24 +20,24 @@
 #- name: install NFD from source
 #  apt: name=nfd state=latest update_cache=yes
 
-- get_url: 
-    url: http://mirror.centos.org/centos/7/os/x86_64/Packages/libpcap-devel-1.5.3-8.el7.x86_64.rpm
-    dest: /tmp/libpcap-devel-1.5.3-8.el7.x86_64.rpm
-    mode: 0644
+# - get_url: 
+#     url: http://mirror.centos.org/centos/7/os/x86_64/Packages/libpcap-devel-1.5.3-8.el7.x86_64.rpm
+#     dest: /tmp/libpcap-devel-1.5.3-8.el7.x86_64.rpm
+#     mode: 0644
 
-- command: rpm -ivh  /tmp/libpcap-devel-1.5.3-8.el7.x86_64.rpm
-  when: "ansible_os_family == 'RedHat' and ansible_distribution_major_version == '7'"
-  ignore_errors: yes
+# - command: rpm -ivh  /tmp/libpcap-devel-1.5.3-8.el7.x86_64.rpm
+#   when: "ansible_os_family == 'RedHat' and ansible_distribution_major_version == '7'"
+#   ignore_errors: yes
 
 - name: git nfd
   git: repo=http://github.com/named-data/NFD
        dest=/tmp/NFD
        update=yes
-       version={{nfd_version}}
+      #  version={{nfd_version}}
 #  register: gitclone
 
 #- name: configure NFD
-- command: ./waf --boost-libs="{{ boost_base_location }}"/lib --boost-includes="{{ boost_base_location }}"/include configure
+- command: ./waf configure
   args:
     chdir: /tmp/NFD
 #  when: gitclone.changed
@@ -61,19 +61,19 @@
 #  when: gitclone.changed
 
 
-- name: copy /etc/init/nfd.conf
-  copy: dest=/etc/init/nfd.conf src=roles/nfd-from-source/files/etc-init-nfd.conf owner=root group=root mode=0644
+- name: copy /etc/init.d/nfd.conf
+  copy: dest=/etc/init.d/nfd.conf src=roles/nfd-from-source/files/etc-init-nfd.conf owner=root group=root mode=0644
   when: ansible_distribution == "Ubuntu" 
 
 - name: copy /lib/systemd/system/nfd.service
   copy: dest=/lib/systemd/system/nfd.service src=roles/nfd-from-source/files/nfd.service owner=root group=root mode=0644
-  when: ansible_distribution == "RedHat" 
+  # when: ansible_distribution == "RedHat" 
 
 - file: path=/etc/systemd/system/multi-user.target.wants/nfd.service  state=link  src=/lib/systemd/system/nfd.service
-  when: ansible_distribution == "RedHat" 
+  # when: ansible_distribution == "RedHat" 
 
 - command: systemctl daemon-reload
-  when: ansible_distribution == "RedHat" 
+  # when: ansible_distribution == "RedHat" 
 
 - name: copy root key
   #copy: dest=/etc/ndn/keys/ansible_ndn-testbed-root.ndncert.base64 src=roles/nfd-from-source/files/ndn-testbed-root.ndncert.base64 owner=root group=root mode=0644

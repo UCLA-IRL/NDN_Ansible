@@ -9,5 +9,5 @@
        #- ndn-cxx-dbg
        - libndn-cxx
        - libndn-cxx-dev
-       - libndn-cxx-dbg
+     #   - libndn-cxx-dbg
 

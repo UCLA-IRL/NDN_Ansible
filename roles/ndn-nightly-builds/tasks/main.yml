@@ -3,7 +3,7 @@
 
 - name: JDD purge ndn packages (ndn-cxx, nfd, ndnsec)
   apt:
-    name: ['ndn-cxx', 'ndn-cxx-dev', 'nfd', 'ndnsec', 'nlsr', 'libndn-cxx', 'libndn-cxx-dev', 'libndn-cxx-dbg' , 'libpsync', 'ndn-autoconfig-server','ndn-dissect', 'ndn-tools', 'ndnchunks', 'ndndump', 'ndnpeek', 'ndnping', 'repo-ng' , 'nfd-status-http-server' ]
+    name: ['ndn-cxx', 'nfd-autoreg', 'nfd', 'ndnsec', 'nlsr', 'libndn-cxx', 'libndn-cxx-dev', 'libndn-cxx-dbg' , 'libpsync', 'ndn-autoconfig-server','ndn-dissect', 'ndn-tools', 'ndnchunks', 'ndndump', 'ndnpeek', 'ndnping', 'repo-ng' , 'nfd-status-http-server' ]
     update_cache: yes
     autoclean: yes
     autoremove: no
@@ -37,14 +37,19 @@
 - name: remove all named-data sources lists
   shell: rm -f /etc/apt/sources.list.d/*named*data*.list*
 
-- name: add /etc/apt/sources.list.d/nfd-nightly.list
+- name: add /etc/apt/sources.list.d/nfd-nightly.list for Ubuntu 20.04
   copy: dest=/etc/apt/sources.list.d/nfd-nightly.list src=roles/ndn-nightly-builds/files/ubuntu_20.04_sources.list mode=644 
   when: (ansible_distribution == "Ubuntu" and ansible_distribution_major_version  == "20")
 
+- name: add /etc/apt/sources.list.d/nfd-nightly.list for Ubuntu 22.04
+  copy: dest=/etc/apt/sources.list.d/nfd-nightly.list src=roles/ndn-nightly-builds/files/ubuntu_22.04_sources.list mode=644 
+  when: (ansible_distribution == "Ubuntu" and ansible_distribution_major_version  == "22")
+
 - name: JDD install ndn packages (nfd, ndnsec)
   apt:
-    name: ['nfd', 'ndnsec', 'nlsr', 'libndn-cxx', 'libndn-cxx-dev', 'libndn-cxx-dbg', 'libpsync', 'ndn-autoconfig-server','ndn-dissect', 'ndn-tools', 'ndnchunks', 'ndndump', 'ndnpeek', 'ndnping', 'repo-ng' , 'nfd-status-http-server', 'ndn6-tools' ]
-    #name: ['ndn-cxx', 'ndn-cxx-dev', 'nfd', 'ndnsec']
+    name: ['nfd', 'ndnsec', 'nlsr', 'libndn-cxx', 'libndn-cxx-dev', 'libpsync', 'nfd-autoreg', 'ndn-autoconfig-server','ndn-dissect', 'ndn-tools', 'ndnchunks', 'ndndump', 'ndnpeek', 'ndnping', 'repo-ng' , 'nfd-status-http-server', 'ndn6-tools' ]
+    # there's seems no nfd-autoreg now. I also don't think anyone is using autoreg
+    # name: ['nfd', 'ndnsec', 'nlsr', 'libndn-cxx', 'libndn-cxx-dev', 'libndn-cxx-dbg', 'libpsync', 'ndn-autoconfig-server','ndn-dissect', 'ndn-tools', 'ndnchunks', 'ndndump', 'ndnpeek', 'ndnping', 'repo-ng' , 'nfd-status-http-server', 'ndn6-tools' ]
     update_cache: yes
     autoclean: yes
     autoremove: yes
@@ -60,7 +65,10 @@
     masked: no
 
 # now remove the nightly list so we don't get nodes out of sync or potentially troublesome versions installed from nightly/weekly
-- name: remove nightly sources list
+- name: remove nightly sources list for Ubuntu 20.04
   file: path=/etc/apt/sources.list.d/nfd-nightly.list state=absent
   when: (ansible_distribution == "Ubuntu" and ansible_distribution_major_version  == "20")
 
+- name: remove nightly sources list for Ubuntu 22.04
+  file: path=/etc/apt/sources.list.d/nfd-nightly.list state=absent
+  when: (ansible_distribution == "Ubuntu" and ansible_distribution_major_version  == "22")

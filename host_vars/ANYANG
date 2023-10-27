@@ -10,7 +10,7 @@ default_prefix: /ndn/kr/anyang
 advertised_prefixes: [/ndn/kr/anyang]
 routable_prefixes: [/ndn/kr/anyang]
 router_name: anyanghub 
-http_access: https
+http_access: http
 memsize: 48
 neighbors: 
   ITB: {link_cost: 42}

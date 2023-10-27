@@ -7,9 +7,9 @@
 - name: make ndn-python-repo required directories
   file: path=/var/lib/ndn/ndn-python-repo state=directory owner=ndn group=ndn mode=0755
 
-- git: 
-    repo: http://github.com/JonnyKong/ndn-python-repo/
-    dest: /home/ndnsec/ndn-python-repo
+# - git: 
+#     repo: http://github.com/UCLA-IRL/ndn-python-repo/
+#     dest: /home/ndnsec/ndn-python-repo
 
 # We are going to use mongodb. It should be installed by the NOC role
 # update /etc/mongodb.conf so it uses NDN specific directories

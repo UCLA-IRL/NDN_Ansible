@@ -1,0 +1,9 @@
+- name: install traffic capture
+  hosts: ppabuilds 
+  remote_user: ndnops
+  become: yes
+
+
+  roles: 
+  - {role: 'ndn-traffic-capture', tags: 'ndn-traffic-capture'}  # 
+

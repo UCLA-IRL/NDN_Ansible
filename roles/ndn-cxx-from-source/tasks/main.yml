@@ -8,6 +8,15 @@
        - ndn-cxx
        - ndn-cxx-dev
 
+
+- name: install prerequistes
+  apt:
+    name: ['pkg-config', 'libboost-all-dev', 'libsqlite3-dev']
+    autoclean: yes
+    autoremove: no
+  when: ansible_distribution == "Ubuntu" 
+  # ignore_errors: yes
+
 #- name: git cryptopp
 #  git: repo=http://github.com/weidai11/cryptopp
 #       dest=/tmp/cryptopp
@@ -26,28 +35,34 @@
   git: repo=http://github.com/named-data/ndn-cxx
        dest=/tmp/ndn-cxx
        update=yes
-       version={{ndn_cxx_version}}
+      #  version={{ndn_cxx_version}}
   register: gitclone
 
+# #- name: configure ndn-cxx
+# - command: ./waf --boost-libs="{{ boost_base_location }}"/lib --boost-includes="{{ boost_base_location }}"/include configure
+#   args:
+#     chdir: /tmp/ndn-cxx
+#   when: gitclone.changed
+
 #- name: configure ndn-cxx
-- command: ./waf --boost-libs="{{ boost_base_location }}"/lib --boost-includes="{{ boost_base_location }}"/include configure
+- command: ./waf configure
   args:
     chdir: /tmp/ndn-cxx
-  when: gitclone.changed
+  # when: gitclone.changed
 
 #- name: build ndn-cxx
 - command: ./waf 
   args:
     chdir: /tmp/ndn-cxx
-  when: gitclone.changed
+  # when: gitclone.changed
 
 #- name: install ndn-cxx
 - command: ./waf  install
   args:
     chdir: /tmp/ndn-cxx
-  when: gitclone.changed
+  # when: gitclone.changed
 
-- copy: src=roles/ndn-cxx-from-source/files/ndn-ld.so.conf dest=/etc/ld.so.conf.d/ndn-ld.so.conf
+# - copy: src=roles/ndn-cxx-from-source/files/ndn-ld.so.conf dest=/etc/ld.so.conf.d/ndn-ld.so.conf
 
 #- name: ldconfig
 - command: ldconfig
