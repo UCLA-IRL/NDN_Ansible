@@ -4,6 +4,7 @@
 #ansible_host: comsci2.srru.ac.th
 ansible_host: srru.testbed.named-data.net
 host_ip: 202.29.30.31
+local_ip: 192.168.2.60
 ethernet_device: eth0
 ansible_user: ndnops
 site: /th/ac/srru
@@ -11,7 +12,7 @@ default_prefix: /ndn/th/ac/srru
 advertised_prefixes: [/ndn/th/ac/srru]
 routable_prefixes: [/ndn/th/ac/srru]
 router_name: comsci2
-http_access: http
+http_access: https
 memsize: 8
 neighbors: 
   MEMPHIS: {link_cost: 150}

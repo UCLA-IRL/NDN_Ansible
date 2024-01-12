@@ -4,6 +4,7 @@
 #ansible_host: 142.150.208.242
 ansible_host: savi.testbed.named-data.net
 host_ip: 142.150.208.242
+local_ip: 142.150.208.242
 ethernet_device: eth0
 site: /ca/utoronto
 default_prefix: /ndn/ca/utoronto 

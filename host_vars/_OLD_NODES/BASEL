@@ -4,6 +4,7 @@
 ethernet_device: eth0
 ansible_host: dmi-ndn-testbed1.dmi.unibas.ch
 host_ip: 192.43.193.111
+local_ip: 192.43.193.111
 site: /ch/unibas
 default_prefix: /ndn/ch/unibas 
 advertised_prefixes: [/ndn/ch/unibas]

@@ -4,6 +4,7 @@
 #ansible_host: 198.111.224.197
 ansible_host: michigan.testbed.named-data.net
 host_ip: 198.111.224.197
+local_ip: 198.111.224.197
 ethernet_device: eth0
 site: /edu/umich
 default_prefix: /ndn/edu/umich 

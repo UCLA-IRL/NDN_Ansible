@@ -4,6 +4,7 @@
 #ansible_host: 196.200.164.99
 ansible_host: univh2c.testbed.named-data.net
 host_ip: 196.200.164.99
+local_ip: 196.200.164.99
 ethernet_device: eth0
 site: /ma/univh2c
 default_prefix: /ndn/ma/univh2c 

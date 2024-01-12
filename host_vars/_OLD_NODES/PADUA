@@ -3,6 +3,7 @@
 # file: host_vars/PADUA
 ansible_host: ndnnode.math.unipd.it
 host_ip: 147.162.114.18
+local_ip: 147.162.114.18
 ethernet_device: eth0
 ansible_port: 22222
 site: /it/unipd

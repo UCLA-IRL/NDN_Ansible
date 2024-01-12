@@ -3,6 +3,7 @@
 # file: host_vars/MEMPHIS
 ansible_host: titan.cs.memphis.edu
 host_ip: 141.225.11.173
+local_ip: 141.225.11.173
 ethernet_device: eth1
 site: /edu/memphis
 default_prefix: /ndn/edu/memphis 

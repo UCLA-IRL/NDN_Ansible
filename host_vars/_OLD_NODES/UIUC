@@ -3,6 +3,7 @@
 # file: host_vars/UIUC
 ansible_host: ndnx.cs.illinois.edu
 host_ip: 72.36.112.82
+local_ip: 72.36.112.82
 ethernet_device: eth0
 site: /edu/illinois
 default_prefix: /ndn/edu/illinois 

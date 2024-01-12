@@ -3,6 +3,7 @@
 # file: host_vars/MML2
 ansible_host: mmlab-aueb-2.mmlab.edu.gr
 host_ip: 195.251.234.12
+local_ip: 195.251.234.12
 ethernet_device: enp0s3
 site: /gr/edu/mmlab2
 default_prefix: /ndn/gr/edu/mmlab2 

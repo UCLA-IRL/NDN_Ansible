@@ -1,6 +1,7 @@
 # file: host_vars/ITB
 ansible_host: testbed-ndn-rg.stei.itb.ac.id
 host_ip: 167.205.57.173
+local_ip: 167.205.57.173
 ethernet_device: eth0
 site: /id/ac/itb
 default_prefix: /ndn/id/ac/itb

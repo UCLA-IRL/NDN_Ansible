@@ -26,7 +26,7 @@ server {
 	}
 
 	location /ws/ {
-		proxy_pass http://{{ ansible_host }}:9696;
+		proxy_pass http://{{ local_ip }}:9696;
 		proxy_http_version 1.1;
 		proxy_set_header Upgrade $http_upgrade;
 		proxy_set_header Connection "upgrade";

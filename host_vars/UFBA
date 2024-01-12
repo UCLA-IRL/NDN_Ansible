@@ -4,6 +4,7 @@
 #ansible_host: 200.128.51.61
 ansible_host: ufba.testbed.named-data.net
 host_ip: 200.128.51.61
+local_ip: 200.128.51.61
 ethernet_device: eth0
 site: /br/ufba
 default_prefix: /ndn/br/ufba 

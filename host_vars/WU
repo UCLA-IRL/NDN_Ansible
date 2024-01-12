@@ -3,6 +3,7 @@
 # file: host_vars/WU
 ansible_host: wundngw.wustl.edu
 host_ip: 128.252.185.35
+local_ip: 128.252.185.35
 ethernet_device: eth0
 site: /edu/wustl
 default_prefix: /ndn/edu/wustl 

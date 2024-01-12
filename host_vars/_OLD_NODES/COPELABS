@@ -4,6 +4,7 @@
 #ansible_host: 193.137.75.171
 ansible_host: copelabs.testbed.named-data.net
 host_ip: 193.137.75.171
+local_ip: 193.137.75.171
 ethernet_device: eth0
 site: /pt/ulusofona/copelabs
 default_prefix: /ndn/pt/ulusofona/copelabs

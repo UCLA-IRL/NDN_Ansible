@@ -5,6 +5,7 @@ ethernet_device: eth0
 #ansible_host: 210.114.89.49
 ansible_host: anyang.testbed.named-data.net
 host_ip: 210.114.89.49
+local_ip: 210.114.89.49
 site: /kr/anyang
 default_prefix: /ndn/kr/anyang 
 advertised_prefixes: [/ndn/kr/anyang]

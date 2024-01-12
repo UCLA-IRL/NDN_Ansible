@@ -3,6 +3,7 @@
 # file: host_vars/LACL
 ansible_host: ndn.lacl.fr
 host_ip: 193.48.143.172
+local_ip: 193.48.143.172
 ethernet_device: eth0
 site: /fr/lacl
 default_prefix: /ndn/fr/lacl 

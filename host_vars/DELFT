@@ -4,6 +4,7 @@
 #ansible_host: 131.180.178.63
 ansible_host: ndn-testbed.ewi.tudelft.nl
 host_ip: 131.180.178.63
+local_ip: 131.180.178.63
 ethernet_device: enp0s3
 site: /nl/delft
 default_prefix: /ndn/nl/delft 

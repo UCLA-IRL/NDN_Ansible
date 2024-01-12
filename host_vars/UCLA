@@ -3,6 +3,7 @@
 # file: host_vars/UCLA
 ansible_host: suns.cs.ucla.edu
 host_ip: 131.179.196.48
+local_ip: 131.179.196.48
 ethernet_device: eth0
 site: /edu/ucla
 default_prefix: /ndn/edu/ucla

@@ -6,6 +6,7 @@
 #ansible_host: 129.10.52.193 #
 ansible_host: neu.testbed.named-data.net
 host_ip: 129.10.224.42
+local_ip: 129.10.224.42
 ethernet_device: eth0
 site: /edu/neu
 default_prefix: /ndn/edu/neu 
