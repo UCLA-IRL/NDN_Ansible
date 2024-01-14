@@ -7,7 +7,7 @@ After=nfd.service
 Environment=HOME=/var/lib/ndn/nfd
 User=ndn
 Group=ndn
-ExecStart=/bin/sh -c 'cd /var/lib/ndn/serve-certs && /usr/local/bin/ndn6-serve-certs *.ndncert'
+ExecStart=/bin/sh -c 'cd /var/lib/ndn/serve-certs && /usr/bin/ndn6-serve-certs/ndn6-serve-certs *.ndncert'
 Restart=on-failure
 ProtectSystem=full
 PrivateTmp=yes
