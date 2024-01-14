@@ -15,14 +15,14 @@ http_access: https
 memsize: 24
 neighbors: 
   IIITH: {link_cost: 90}
-  UNIVH2C: {link_cost: 52}
+  #UNIVH2C: {link_cost: 52}
   AVEIRO: {link_cost: 15}
-  CORUNA: {link_cost: 17}
+  #CORUNA: {link_cost: 17}
   #CAGLIARI: {link_cost: 28}
   MINHO: {link_cost: 13}
-  COPELABS: {link_cost: 13}
-  PADUA: {link_cost: 15}
-  BASEL: {link_cost: 14}
+  #COPELABS: {link_cost: 13}
+  #PADUA: {link_cost: 15}
+  #BASEL: {link_cost: 14}
   WU: {link_cost: 86}
   #LIP6: {link_cost: 15}
 network_regions: [/ndn/es/urjc]

@@ -16,9 +16,9 @@ http_access: https
 memsize: 8
 neighbors: 
   MEMPHIS: {link_cost: 150}
-  UUM: {link_cost: 42}
+  #UUM: {link_cost: 42}
   #PKUSZ: {link_cost: 71}
-  MSU: {link_cost: 3}
+  #MSU: {link_cost: 3}
   #BUPT: {link_cost: 72}
   ANYANG: {link_cost: 57}
   OSAKA: {link_cost: 67}

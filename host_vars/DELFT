@@ -15,7 +15,7 @@ http_access: http
 ansible_python_interpreter: /usr/bin/python3
 memsize: 4
 neighbors: 
-  PADUA: {link_cost: 15}
+  #PADUA: {link_cost: 15}
   TNO: {link_cost: 2}
   QUB: {link_cost: 15}
   #GOETTINGEN: {link_cost: 12}

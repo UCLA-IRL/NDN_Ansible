@@ -21,8 +21,8 @@ neighbors:
   #CAGLIARI: {link_cost: 25}
   #MUMBAI_AWS: {link_cost: 72}
   IIITH: {link_cost: 72}
-  PADUA: {link_cost: 11}
-  COPELABS: {link_cost: 36}
+  #PADUA: {link_cost: 11}
+  #COPELABS: {link_cost: 36}
   BERN: {link_cost: 15}
 network_regions: [/ndn/it/afasystems]
 # AS5396

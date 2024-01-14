@@ -15,12 +15,12 @@ memsize: 4
 neighbors:
   MML1: {link_cost: 80}
   SRRU: {link_cost: 150}
-  UASLP: {link_cost: 100}
+  #UASLP: {link_cost: 100}
   UFBA: {link_cost: 115}
   ARIZONA: {link_cost: 17}
   WU: {link_cost: 17}
   #WU2: {link_cost: 17}
-  MICHIGAN: {link_cost: 12}
+  #MICHIGAN: {link_cost: 12}
   NEU: {link_cost: 21}
 network_regions: [/ndn/edu/memphis]
 # AS14048

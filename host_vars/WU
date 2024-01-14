@@ -15,22 +15,22 @@ memsize: 2
 neighbors: 
   DELFT: {link_cost: 60}
   MML1: {link_cost: 75}
-  BERN: {link_cost: 60}
+  #BERN: {link_cost: 60}
   QUB: {link_cost: 60}
   #WU2: {link_cost: 1}
   #MUMBAI_AWS: {link_cost: 122}
   IIITH: {link_cost: 122}
   AVEIRO: {link_cost: 75}
-  UNIVH2C: {link_cost: 75}
+  #UNIVH2C: {link_cost: 75}
   UFBA: {link_cost: 65}
-  CORUNA: {link_cost: 85}
+  #CORUNA: {link_cost: 85}
   #CAGLIARI: {link_cost: 75}
   #UCLACS: {link_cost: 30}
   UCLA: {link_cost: 30}
   URJC: {link_cost: 86}
   ARIZONA: {link_cost: 33}
   MEMPHIS: {link_cost: 17}
-  UIUC: {link_cost: 9}
+  #UIUC: {link_cost: 9}
 network_regions: [/ndn/edu/wustl]
 # AS2552
 # not in file

@@ -14,10 +14,10 @@ router_name: anyanghub
 http_access: http
 memsize: 48
 neighbors: 
-  ITB: {link_cost: 42}
+  #ITB: {link_cost: 42}
   #GIST: {link_cost: 4}
   SRRU: {link_cost: 57}
-  MSU: {link_cost: 70}
+  #MSU: {link_cost: 70}
   OSAKA: {link_cost: 36}
   #KISTI: {link_cost: 40}
   WASEDA: {link_cost: 40}

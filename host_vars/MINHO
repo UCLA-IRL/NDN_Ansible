@@ -14,11 +14,11 @@ http_access: https
 memsize: 4
 neighbors: 
   AVEIRO: {link_cost: 2}
-  CORUNA: {link_cost: 27}
-  COPELABS: {link_cost: 4}
-  BASEL: {link_cost: 23}
+  #CORUNA: {link_cost: 27}
+  #COPELABS: {link_cost: 4}
+  #BASEL: {link_cost: 23}
   URJC: {link_cost: 13}
-  PADUA: {link_cost: 26}
+  #PADUA: {link_cost: 26}
 network_regions: [/ndn/pt/uminho]
 # AS1930
 # 1930    2.62082874954162        16.2060358549513
