@@ -11,7 +11,7 @@ default_prefix: /ndn/nl/delft
 advertised_prefixes: [/ndn/nl/delft]
 routable_prefixes: [/ndn/nl/delft]
 router_name: ndn-testbed
-http_access: http
+http_access: https
 ansible_python_interpreter: /usr/bin/python3
 memsize: 4
 neighbors: 

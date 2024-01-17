@@ -11,7 +11,7 @@ default_prefix: /ndn/ca/utoronto
 advertised_prefixes: [/ndn/ca/utoronto]
 routable_prefixes: [/ndn/ca/utoronto]
 router_name: ndnrtr 
-http_access: http
+http_access: https
 memsize: 8
 neighbors: 
   UCLA: {link_cost: 40}

@@ -11,7 +11,7 @@ default_prefix: /ndn/jp/waseda
 advertised_prefixes: [/ndn/jp/waseda]
 routable_prefixes: [/ndn/jp/waseda]
 router_name: ndn-tb 
-http_access: http
+http_access: htt
 # memsize: unknown
 memsize: 2
 neighbors: 
