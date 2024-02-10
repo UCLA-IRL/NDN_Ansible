@@ -23,6 +23,8 @@ nfdc strategy set  ndn:/ndn/web/stats  ndn:/localhost/nfd/strategy/best-route
 /usr/bin/nfdc strategy set  /ndn/multicast /localhost/nfd/strategy/multicast
 /usr/bin/nfdc strategy set  /ndn/broadcast /localhost/nfd/strategy/multicast
 /usr/bin/nfdc strategy set  /localhost     /localhost/nfd/strategy/multicast
+# set /ndn/irl-workspace/32=sync with
+/usr/bin/nfdc strategy set  /ndn/irl-workspace/32=sync  /localhost/nfd/strategy/multicast
 
 # default local access strategy
 nfdc strategy set  ndn:{{ default_prefix }} ndn:/localhost/nfd/strategy/access
