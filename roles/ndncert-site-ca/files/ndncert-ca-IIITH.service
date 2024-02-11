@@ -1,15 +1,15 @@
 [Unit]
-Description=Certificate Management Identity Management Service for NDN (NEU)
+Description=Certificate Management Identity Management Service for NDN (IIITH)
 
 [Service]
 Environment=HOME=%S/ndn/ndncert-ca
 Environment=NDN_LOG=*=TRACE
 # for use no repo
-ExecStart=/usr/bin/ndncert-ca-server -c /etc/ndncert/ca-NEU.conf 
+ExecStart=/usr/bin/ndncert-ca-server -c /etc/ndncert/ca-IIITH.conf 
 # for use with repo-ng:
-#ExecStart=/usr/bin/ndncert-ca-server -c /etc/ndncert/ca-NEU.conf -r -H 127.0.0.1 -P 7376
+#ExecStart=/usr/bin/ndncert-ca-server -c /etc/ndncert/ca-IIITH.conf -r -H 127.0.0.1 -P 7376
 # for use with ndn-python-repo:
-#ExecStart=/usr/bin/ndncert-ca-server -c /etc/ndncert/ca-NEU.conf -r -H 127.0.0.1 -P 7378
+#ExecStart=/usr/bin/ndncert-ca-server -c /etc/ndncert/ca-IIITH.conf -r -H 127.0.0.1 -P 7378
 User=ndn
 StateDirectory=ndn/ndncert-ca
 Restart=on-failure

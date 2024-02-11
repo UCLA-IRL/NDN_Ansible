@@ -1,0 +1,6 @@
+{
+    "ca-prefix": "/ndn/gr/edu/mmlab1",
+    "certificate": "Bv0BLAczCANuZG4IAmdyCANlZHUIBm1tbGFiMQgDS0VZCAgVoZfWraI0OQgCTkE2CAAAAYc1rHgRFAkYAQIZBAA27oAVWzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLq3ipB4og6zk68KgPzws/zVFIZYujRrLal27bn9aKTD4S+0nGgUBtecX2n0jFzevjjb+HzFZOIOUIVnSomh9GMWRRsBAxwWBxQIA25kbggDS0VZCAgnxLIqn3uBJ/0A/Sb9AP4PMjAyMzAzMzFUMDMxODI5/QD/DzIwMjQwMzMwVDAzMTgyOBdGMEQCIGtfPoVKtQK97hykxNkRUZ1y5tFTa0R3U/KFVqsnRG+8AiAwyZwmk7Z0CcG4pSKnnHB1B98XeaTM4Vos1FhZUysPEQ==",
+    "policy-type": "email",
+    "policy-param": "aueb.gr"
+}

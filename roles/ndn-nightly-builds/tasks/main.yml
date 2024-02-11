@@ -47,7 +47,7 @@
 
 - name: JDD install ndn packages (nfd, ndnsec)
   apt:
-    name: ['nfd', 'ndnsec', 'nlsr', 'libndn-cxx', 'libndn-cxx-dev', 'libndncert', 'libpsync', 'nfd-autoreg', 'ndn-autoconfig-server','ndn-dissect', 'ndn-tools', 'ndnchunks', 'ndndump', 'ndnpeek', 'ndnping', 'repo-ng' , 'nfd-status-http-server', 'ndn6-tools', 'infoedit' ]
+    name: ['nfd', 'ndnsec', 'nlsr', 'libndn-cxx', 'libndn-cxx-dev', 'libndncert', 'ndncert-server','libpsync', 'nfd-autoreg', 'ndn-autoconfig-server','ndn-dissect', 'ndn-tools', 'ndnchunks', 'ndndump', 'ndnpeek', 'ndnping', 'repo-ng' , 'nfd-status-http-server', 'ndn6-tools', 'infoedit' ]
     # there's seems no nfd-autoreg now. I also don't think anyone is using autoreg
     # name: ['nfd', 'ndnsec', 'nlsr', 'libndn-cxx', 'libndn-cxx-dev', 'libndn-cxx-dbg', 'libpsync', 'ndn-autoconfig-server','ndn-dissect', 'ndn-tools', 'ndnchunks', 'ndndump', 'ndnpeek', 'ndnping', 'repo-ng' , 'nfd-status-http-server', 'ndn6-tools' ]
     update_cache: yes

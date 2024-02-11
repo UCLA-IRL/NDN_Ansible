@@ -1,0 +1,6 @@
+{
+    "ca-prefix": "/ndn/br/ufba",
+    "certificate": "Bv0BJwcsCANuZG4IAmJyCAR1ZmJhCANLRVkICFB2jkCkt/hVCAJOQTYIAAABhzWsfkoUCRgBAhkEADbugBVbMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErm8duAYuYNWhF8freN+e+7/sPjTdMO9JFUhMBnxilhoMcSFF5YyTLlc19thhGu+2tE3Hu+yd2AKfZd49crMWshZFGwEDHBYHFAgDbmRuCANLRVkICCfEsiqfe4En/QD9Jv0A/g8yMDIzMDMzMVQwMzE4MzD9AP8PMjAyNDAzMzBUMDMxODI5F0gwRgIhAKddv5WZagXrO6/gLEKSNm0uUGO5j375UiKf5qGs703IAiEAkUbP/+CX4fXexqpVf74afx3Ewx9RWV0MYsui189CR2Y=",
+    "policy-type": "email",
+    "policy-param": "pop-ba.rnp.br"
+}

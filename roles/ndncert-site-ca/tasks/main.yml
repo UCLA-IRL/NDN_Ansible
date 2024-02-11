@@ -1,6 +1,10 @@
 ---
 # tasks file for ndncert-site-ca
 
+# Remove built from source
+- name: remove source built at /usr/local/lib/libndn-cert.so.0.1.0
+  file: path=/usr/local/lib/libndn-cert.so.0.1.0 state=absent
+
 # Create {{ansible_user}}/ndncert-site-ca
 - name: create ndncert-site-ca directory
   file: path=/home/{{ansible_user}}/ndncert-site-ca  state=directory owner="{{ansible_user}}" group="{{ansible_user}}" mode=0755
@@ -17,7 +21,7 @@
 
 # Copy site conf file to Site
 - name: copy site CA conf file to site
-  copy: src=roles/ndncert-site-ca/files/ca-{{inventory_hostname}}.conf dest=/usr/local/etc/ndncert/ mode=644
+  copy: src=roles/ndncert-site-ca/files/ca-{{inventory_hostname}}.conf dest=/etc/ndncert/ mode=644
   become_user: root
 
 # Create site systemd service file
@@ -74,14 +78,14 @@
     chdir: /etc/mail
 
 # need ndncert-send-email.conf Arizona needed the gmail specific one so lets go with that.
-# push ../files/ndncert-mail.conf to /usr/local/etc/ndncert/ndncert-mail.conf  to Site
+# push ../files/ndncert-mail.conf to /etc/ndncert/ndncert-mail.conf  to Site
 - name: copy gmail-smtp-auth to site
-  copy: src=roles/ndncert-site-ca/files/ndncert-mail.conf  dest=/usr/local/etc/ndncert/ndncert-mail.conf owner=ndn group=root mode=400
+  copy: src=roles/ndncert-site-ca/files/ndncert-mail.conf  dest=/etc/ndncert/ndncert-mail.conf owner=ndn group=root mode=400
   become_user: root
 
 # Restart ndncert site ca service
 - name: restart ndncert-ca
-  service: name=ndncert-ca-{{inventory_hostname}} state=restarted enabled=yes
+  service: name=ndncert-ca-{{inventory_hostname}} state=restarted enabled=yes daemon_reload=yes
 
 
 # And what do we need to do about getting certs served out of the python repos

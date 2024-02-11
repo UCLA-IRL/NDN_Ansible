@@ -1,6 +1,10 @@
 ---
 # tasks file for ndncert-ca
 
+# Remove built from source
+- name: remove source built at /usr/local/lib/libndn-cert.so.0.1.0
+  file: path=/usr/local/lib/libndn-cert.so.0.1.0 state=absent
+
 # Create {{ansible_user}}/ndncert-ca
 - name: create ndncert-ca directory
   file: path=/home/{{ansible_user}}/ndncert-ca  state=directory owner="{{ansible_user}}" group="{{ansible_user}}" mode=0755
@@ -22,7 +26,7 @@
 
 # copy root server conf file to node (UCLA)
 - name: copy root CA conf file to node
-  copy: src=roles/ndncert-ca/files/rootCA.conf dest=/usr/local/etc/ndncert/ mode=644
+  copy: src=roles/ndncert-ca/files/rootCA.conf dest=/etc/ndncert/ mode=644
   become_user: root
   when: inventory_hostname == "UCLA"
 
@@ -84,7 +88,7 @@
 # need ndncert-send-email.conf Arizona needed the gmail specific one so lets go with that.
 # push ../files/ndncert-mail.conf to /usr/local/etc/ndncert/ndncert-mail.conf  to Site
 - name: copy gmail-smtp-auth to node
-  copy: src=roles/ndncert-ca/files/ndncert-mail.conf  dest=/usr/local/etc/ndncert/ndncert-mail.conf owner=ndn group=root mode=400
+  copy: src=roles/ndncert-ca/files/ndncert-mail.conf  dest=/etc/ndncert/ndncert-mail.conf owner=ndn group=root mode=400
   become_user: root
   when: inventory_hostname == "UCLA"
 

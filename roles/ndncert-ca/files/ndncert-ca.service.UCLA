@@ -4,7 +4,7 @@ Description=Certificate Management Identity Management Service for NDN
 [Service]
 Environment=HOME=%S/ndncert-ca
 Environment=NDN_LOG=*=DEBUG
-ExecStart=/usr/local/bin/ndncert-ca-server -c /usr/local/etc/ndncert/ca.conf
+ExecStart=/usr/bin/ndncert-ca-server -c /etc/ndncert/ca.conf
 Restart=on-failure
 RestartPreventExitStatus=2
 RestartSec=5
