@@ -1,0 +1,6 @@
+    {
+      "ca-prefix": "/ndn/edu/memphis",
+      "certificate": "Bv0BOgcwCANuZG4IA2VkdQgHbWVtcGhpcwgDS0VZCAgShbzCR6fiswgCTkE2CAAAAY4BaVCIFAkYAQIZBAA27oAVWzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOEW7UzpgiuaRFp9OHFQpfX1z4pfp8YgT7tWQEFWZCbQHBgQdUozWh1uBu4GE/yGhGGlr6m6MAJkPVwqBWsdDs8WVBsBAxwlByMIA25kbggDS0VZCAgnxLIqn3uBJwgDbmRuNggAAAGAdfpztP0A/Sb9AP4PMjAyNDAzMDJUMjMwNDIz/QD/DzIwMjUwMzAyVDIzMDQyMhdIMEYCIQCWzCfLNKHHtMNl6MX9U4HhMyHwCZ8OC9xwhNP48K9n5QIhANwrQdQxEQ8HIpMLqVEWEluFCWbObOTVgqeWyw72uUPO",
+      "policy-type": "email",
+      "policy-param": "memphis.edu"
+    }

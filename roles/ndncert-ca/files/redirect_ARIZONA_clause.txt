@@ -1,0 +1,12 @@
+    {
+      "ca-prefix": "/ndn/edu/arizona",
+      "certificate": "Bv0BOQcwCANuZG4IA2VkdQgHYXJpem9uYQgDS0VZCAg1vboWYrnYqwgCTkE2CAAAAY4BaU9/FAkYAQIZBAA27oAVWzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABICkjxGkuIIfWRA9UfrKLTcJNUgSPs8TOzPrZzv+KSls90y6O3jtpZCwRhDrxfg053J7JOcKvbmBDz5aUMBWWiAWVBsBAxwlByMIA25kbggDS0VZCAgnxLIqn3uBJwgDbmRuNggAAAGAdfpztP0A/Sb9AP4PMjAyNDAzMDJUMjMwNDIz/QD/DzIwMjUwMzAyVDIzMDQyMhdHMEUCIQCUAU80IPuFLcqDxO6iS+PsoiCjeqeC+D5iO37at5bWbQIgWe00b7PRCZXQT9YYGHQ853ElNBw+vs9jlQWus4UYkZ4=",
+      "policy-type": "email",
+      "policy-param": "cs.arizona.edu"
+    },
+    {
+      "ca-prefix": "/ndn/edu/arizona",
+      "certificate": "Bv0BOQcwCANuZG4IA2VkdQgHYXJpem9uYQgDS0VZCAg1vboWYrnYqwgCTkE2CAAAAY4BaU9/FAkYAQIZBAA27oAVWzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABICkjxGkuIIfWRA9UfrKLTcJNUgSPs8TOzPrZzv+KSls90y6O3jtpZCwRhDrxfg053J7JOcKvbmBDz5aUMBWWiAWVBsBAxwlByMIA25kbggDS0VZCAgnxLIqn3uBJwgDbmRuNggAAAGAdfpztP0A/Sb9AP4PMjAyNDAzMDJUMjMwNDIz/QD/DzIwMjUwMzAyVDIzMDQyMhdHMEUCIQCUAU80IPuFLcqDxO6iS+PsoiCjeqeC+D5iO37at5bWbQIgWe00b7PRCZXQT9YYGHQ853ElNBw+vs9jlQWus4UYkZ4=",
+      "policy-type": "email",
+      "policy-param": "email.arizona.edu"
+    }

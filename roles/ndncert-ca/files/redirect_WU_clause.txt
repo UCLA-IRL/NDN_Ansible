@@ -1,0 +1,6 @@
+    {
+      "ca-prefix": "/ndn/edu/wustl",
+      "certificate": "Bv0BOAcuCANuZG4IA2VkdQgFd3VzdGwIA0tFWQgIQSYo8HBWM/0IAk5BNggAAAGOAWlWlBQJGAECGQQANu6AFVswWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQOEhQY8ISPL6CsVHEqb5q3dlkPnku2njZv2T1SuGhhRUWBfr2efHCa8919mJtujVNi4Dl7H6DJ+W5Dn9CKkZcUFlQbAQMcJQcjCANuZG4IA0tFWQgIJ8SyKp97gScIA25kbjYIAAABgHX6c7T9AP0m/QD+DzIwMjQwMzAyVDIzMDQyNf0A/w8yMDI1MDMwMlQyMzA0MjQXSDBGAiEA4Tfop7SD17WPx9hgAFFfC93fQqq5mo8Q6T9p+0DcTQECIQDBnD/bnmlTH9zFcHWeoP8U1YknF9YaTxP8w3UT45RKLg==",
+      "policy-type": "email",
+      "policy-param": "wustl.edu"
+    }

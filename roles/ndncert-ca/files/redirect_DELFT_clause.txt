@@ -1,0 +1,6 @@
+    {
+      "ca-prefix": "/ndn/nl/delft",
+      "certificate": "Bv0BNgctCANuZG4IAm5sCAVkZWxmdAgDS0VZCAhVT2XIY7QfEggCTkE2CAAAAY4BaUxoFAkYAQIZBAA27oAVWzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABPJ3L3UpcfyfV+q/bNXMVhZK1UHUFazf7/XKwPQwUfMSHfWfHIgaPv3m39FrxCiJXw3V/BhOCWTXBlotQmBAdkcWVBsBAxwlByMIA25kbggDS0VZCAgnxLIqn3uBJwgDbmRuNggAAAGAdfpztP0A/Sb9AP4PMjAyNDAzMDJUMjMwNDIy/QD/DzIwMjUwMzAyVDIzMDQyMRdHMEUCIQCdHDLqkQje7+nHKznbDPQA3BGATqwhG5C+pVSiOU1HoQIgHHSmqiFsll8iVLFn57HkyTsdOeaqIiGSufKKRxSctJc=",
+      "policy-type": "email",
+      "policy-param": "delft.nl"
+    }

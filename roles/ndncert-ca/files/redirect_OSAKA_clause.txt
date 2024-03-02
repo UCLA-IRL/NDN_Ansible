@@ -1,0 +1,6 @@
+    {
+      "ca-prefix": "/ndn/jp/ac/osaka-u",
+      "certificate": "Bv0BOwczCANuZG4IAmpwCAJhYwgHb3Nha2EtdQgDS0VZCAjCc9Pj1vNT6AgCTkE2CAAAAY4BaVLWFAkYAQIZBAA27oAVWzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJV4aAMLqxPMyy07tFci649SGaniJ2yF2Au2HyhK9FQyb+V9jV9X+4issKDf+dgeDGm66g4CX41t9w6dau5Cy1IWVBsBAxwlByMIA25kbggDS0VZCAgnxLIqn3uBJwgDbmRuNggAAAGAdfpztP0A/Sb9AP4PMjAyNDAzMDJUMjMwNDI0/QD/DzIwMjUwMzAyVDIzMDQyMxdGMEQCIEVdvsdG9t4iUGHG2o4USDnVIEYuhx25vz1TWClp62qBAiBhjmiCYxQnZWKvTtDy1yjMrcrQ7xDm6cI7UGjC0QyPYQ==",
+      "policy-type": "email",
+      "policy-param": "ist.osaka-u.ac.jp"
+    }

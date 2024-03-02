@@ -1,0 +1,24 @@
+    {
+      "ca-prefix": "/ndn/edu/ucla",
+      "certificate": "Bv0BNgctCANuZG4IA2VkdQgEdWNsYQgDS0VZCAj3fje8KOWt7AgCTkE2CAAAAY4BaVW1FAkYAQIZBAA27oAVWzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOfmS4ieDzdFcedYLyw0oDnq1Q4xEt1l9QLcc+Keqm7qzWAzi9JZdfuBpFc8MzATsXfjlKOuM0bXtuYMvrMpiRcWVBsBAxwlByMIA25kbggDS0VZCAgnxLIqn3uBJwgDbmRuNggAAAGAdfpztP0A/Sb9AP4PMjAyNDAzMDJUMjMwNDI1/QD/DzIwMjUwMzAyVDIzMDQyNBdHMEUCICz3IsbTaKuLKEWm0WwMtVAvwdPJCcNSBkv2M9a3+Ho3AiEA1rRTvmFDNKaPjphpMnnyus34Uinm47jur1du2WbCjLc=",
+      "policy-type": "email",
+      "policy-param": "g.ucla.edu"
+    },
+    {
+      "ca-prefix": "/ndn/edu/ucla",
+      "certificate": "Bv0BNgctCANuZG4IA2VkdQgEdWNsYQgDS0VZCAj3fje8KOWt7AgCTkE2CAAAAY4BaVW1FAkYAQIZBAA27oAVWzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOfmS4ieDzdFcedYLyw0oDnq1Q4xEt1l9QLcc+Keqm7qzWAzi9JZdfuBpFc8MzATsXfjlKOuM0bXtuYMvrMpiRcWVBsBAxwlByMIA25kbggDS0VZCAgnxLIqn3uBJwgDbmRuNggAAAGAdfpztP0A/Sb9AP4PMjAyNDAzMDJUMjMwNDI1/QD/DzIwMjUwMzAyVDIzMDQyNBdHMEUCICz3IsbTaKuLKEWm0WwMtVAvwdPJCcNSBkv2M9a3+Ho3AiEA1rRTvmFDNKaPjphpMnnyus34Uinm47jur1du2WbCjLc=",
+      "policy-type": "email",
+      "policy-param": "ucla.edu"
+    },
+    {
+      "ca-prefix": "/ndn/edu/ucla",
+      "certificate": "Bv0BNgctCANuZG4IA2VkdQgEdWNsYQgDS0VZCAj3fje8KOWt7AgCTkE2CAAAAY4BaVW1FAkYAQIZBAA27oAVWzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOfmS4ieDzdFcedYLyw0oDnq1Q4xEt1l9QLcc+Keqm7qzWAzi9JZdfuBpFc8MzATsXfjlKOuM0bXtuYMvrMpiRcWVBsBAxwlByMIA25kbggDS0VZCAgnxLIqn3uBJwgDbmRuNggAAAGAdfpztP0A/Sb9AP4PMjAyNDAzMDJUMjMwNDI1/QD/DzIwMjUwMzAyVDIzMDQyNBdHMEUCICz3IsbTaKuLKEWm0WwMtVAvwdPJCcNSBkv2M9a3+Ho3AiEA1rRTvmFDNKaPjphpMnnyus34Uinm47jur1du2WbCjLc=",
+      "policy-type": "email",
+      "policy-param": "cs.ucla.edu"
+    },
+    {
+      "ca-prefix": "/ndn/edu/ucla",
+      "certificate": "Bv0BNgctCANuZG4IA2VkdQgEdWNsYQgDS0VZCAj3fje8KOWt7AgCTkE2CAAAAY4BaVW1FAkYAQIZBAA27oAVWzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOfmS4ieDzdFcedYLyw0oDnq1Q4xEt1l9QLcc+Keqm7qzWAzi9JZdfuBpFc8MzATsXfjlKOuM0bXtuYMvrMpiRcWVBsBAxwlByMIA25kbggDS0VZCAgnxLIqn3uBJwgDbmRuNggAAAGAdfpztP0A/Sb9AP4PMjAyNDAzMDJUMjMwNDI1/QD/DzIwMjUwMzAyVDIzMDQyNBdHMEUCICz3IsbTaKuLKEWm0WwMtVAvwdPJCcNSBkv2M9a3+Ho3AiEA1rRTvmFDNKaPjphpMnnyus34Uinm47jur1du2WbCjLc=",
+      "policy-type": "email",
+      "policy-param": "engineering.ucla.edu"
+    }

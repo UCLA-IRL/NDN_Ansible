@@ -1,6 +1,0 @@
-{
-    "ca-prefix": "/ndn/nl/tno",
-    "certificate": "Bv0BJQcrCANuZG4IAm5sCAN0bm8IA0tFWQgI45RFrGxFa54IAk5BNggAAAGHNax76RQJGAECGQQANu6AFVswWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAATzIMeckN5uwxoksKJQ2AGZMJZv1/nfThosRLkXvgQFaQMk5Z649mQHR97LYaNbL7BiHis5mLz/HpXfJG3yuunlFkUbAQMcFgcUCANuZG4IA0tFWQgIJ8SyKp97gSf9AP0m/QD+DzIwMjMwMzMxVDAzMTgzMP0A/w8yMDI0MDMzMFQwMzE4MjkXRzBFAiBEeMySfvKkwToQOUK2J9vgqbMwOF3VpM3v54Hl9t22kQIhAOZDklsj5Qk7qgFOGN8XcxW+OD5K8LGTmlB2RROUB0jT",
-    "policy-type": "email",
-    "policy-param": "tno.nl"
-}

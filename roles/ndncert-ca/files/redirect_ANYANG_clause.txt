@@ -1,0 +1,6 @@
+    {
+      "ca-prefix": "/ndn/kr/anyang",
+      "certificate": "Bv0BNwcuCANuZG4IAmtyCAZhbnlhbmcIA0tFWQgIN8Ga2zFU2IEIAk5BNggAAAGOAWlP1xQJGAECGQQANu6AFVswWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAS37+fhetHM5hgbEUBfl/+6ZNZ5A/yZ94uLBhfE6OSEL7Ybk9XJUOn1IPMhjt7Gtx3auFpwVLWLblTMI8AE2hYtFlQbAQMcJQcjCANuZG4IA0tFWQgIJ8SyKp97gScIA25kbjYIAAABgHX6c7T9AP0m/QD+DzIwMjQwMzAyVDIzMDQyM/0A/w8yMDI1MDMwMlQyMzA0MjIXRzBFAiAnF+nOUlm8gGkze1nSIPnMMyAPf4SOIqiatLq5mxC0qQIhAJ9GuhSKA4CTmum8pbXV1VGq+E2EZLJtGZsGhhIPlyFN",
+      "policy-type": "email",
+      "policy-param": "anyang.ac.kr"
+    }

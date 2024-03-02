@@ -1,0 +1,6 @@
+    {
+      "ca-prefix": "/ndn/ch/unibe",
+      "certificate": "Bv0BNgctCANuZG4IAmNoCAV1bmliZQgDS0VZCAjocFHPbdki+QgCTkE2CAAAAY4BaU+YFAkYAQIZBAA27oAVWzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABMrNJKrYQq8Iffrd/HU6DZ/CDOTusCzZQ5QLh6gnfUyXbdBcVcNipHMGbSwRa0YzIN5vQeSvOmzj9zaCYDKXYLcWVBsBAxwlByMIA25kbggDS0VZCAgnxLIqn3uBJwgDbmRuNggAAAGAdfpztP0A/Sb9AP4PMjAyNDAzMDJUMjMwNDIz/QD/DzIwMjUwMzAyVDIzMDQyMhdHMEUCIHG+w0OuuNC5OM50jD4JnKvkyTtuIuznhqvKW8KxYLdIAiEAr2wrAqdx1PGD1Bx33r1Ls0FHzLhYodv4D70P2UfmF1E=",
+      "policy-type": "email",
+      "policy-param": "inf.unibe.ch"
+    }

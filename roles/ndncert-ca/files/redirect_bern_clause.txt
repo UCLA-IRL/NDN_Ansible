@@ -1,6 +1,0 @@
-{
-    "ca-prefix": "/ndn/ch/unibas",
-    "certificate": "Bv0BKAcuCANuZG4IAmNoCAZ1bmliYXMIA0tFWQgIKR6GAWDl9McIAk5BNggAAAGHNax76RQJGAECGQQANu6AFVswWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAS9TCbfqI4biFYseqvINiqvrWGZnBDrlsiJ8tSrMsaiBzQMi1dhGtqZPMMvJHU8h8rfGVSVTYviuaaYM7M30IeoFkUbAQMcFgcUCANuZG4IA0tFWQgIJ8SyKp97gSf9AP0m/QD+DzIwMjMwMzMxVDAzMTgzMP0A/w8yMDI0MDMzMFQwMzE4MjkXRzBFAiBD0l9iNaE44+BdIEe3ZSD3csM/0QcdaO4QRsm4H9RzUwIhAOBDk5nkUlEFa0nKTa0vhIH7Wxa+/7pwwfae+luzWNtK",
-    "policy-type": "email",
-    "policy-param": "unibas.ch"
-}

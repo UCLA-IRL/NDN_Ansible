@@ -1,0 +1,12 @@
+    {
+      "ca-prefix": "/ndn/es/urjc",
+      "certificate": "Bv0BNQcsCANuZG4IAmVzCAR1cmpjCANLRVkICJdcHYTHG1MdCAJOQTYIAAABjgFpVjYUCRgBAhkEADbugBVbMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEn+au1DV8a1/C07jMtbJTGYC4IbUhFcnHygjvzROHm1A573ZhqpxKxnvKlyY+26kd2EncqcWam7KClFX6TXW7bBZUGwEDHCUHIwgDbmRuCANLRVkICCfEsiqfe4EnCANuZG42CAAAAYB1+nO0/QD9Jv0A/g8yMDI0MDMwMlQyMzA0MjX9AP8PMjAyNTAzMDJUMjMwNDI0F0cwRQIgCpN2nRsLA6dSedJDqpGbeAqhg62yNN+zs3AbuzeXYGoCIQDg5mi4LdrrDz5x0jlmmHgCS7dX1rXHj7GIpQfu4htNRQ==",
+      "policy-type": "email",
+      "policy-param": "urjc.es"
+    },
+    {
+      "ca-prefix": "/ndn/es/urjc",
+      "certificate": "Bv0BNQcsCANuZG4IAmVzCAR1cmpjCANLRVkICJdcHYTHG1MdCAJOQTYIAAABjgFpVjYUCRgBAhkEADbugBVbMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEn+au1DV8a1/C07jMtbJTGYC4IbUhFcnHygjvzROHm1A573ZhqpxKxnvKlyY+26kd2EncqcWam7KClFX6TXW7bBZUGwEDHCUHIwgDbmRuCANLRVkICCfEsiqfe4EnCANuZG42CAAAAYB1+nO0/QD9Jv0A/g8yMDI0MDMwMlQyMzA0MjX9AP8PMjAyNTAzMDJUMjMwNDI0F0cwRQIgCpN2nRsLA6dSedJDqpGbeAqhg62yNN+zs3AbuzeXYGoCIQDg5mi4LdrrDz5x0jlmmHgCS7dX1rXHj7GIpQfu4htNRQ==",
+      "policy-type": "email",
+      "policy-param": "alumnos.urjc.es"
+    }

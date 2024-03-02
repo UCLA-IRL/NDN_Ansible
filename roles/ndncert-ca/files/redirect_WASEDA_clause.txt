@@ -1,0 +1,12 @@
+    {
+      "ca-prefix": "/ndn/jp/waseda",
+      "certificate": "Bv0BNgcuCANuZG4IAmpwCAZ3YXNlZGEIA0tFWQgIos868A4Bt9AIAk5BNggAAAGOAWlWPhQJGAECGQQANu6AFVswWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAATGRWrnpWD+bZAZfF1po31pln9NejrIxA3M4BS2XFAwAKPOiZ+wO5DXlzBjMTurKL3h2RxOmpprh6JnoxhzQ8lIFlQbAQMcJQcjCANuZG4IA0tFWQgIJ8SyKp97gScIA25kbjYIAAABgHX6c7T9AP0m/QD+DzIwMjQwMzAyVDIzMDQyNf0A/w8yMDI1MDMwMlQyMzA0MjQXRjBEAiA0WEJPvf/PrNO2Cv8ogqzSn/ipvzGEifiJgCd91nskwgIgIsyLnfGcdoVKqoS+Omgvbg3nY9iZMAU8hmM/PfLGtZs=",
+      "policy-type": "email",
+      "policy-param": "waseda.jp"
+    },
+    {
+      "ca-prefix": "/ndn/jp/waseda",
+      "certificate": "Bv0BNgcuCANuZG4IAmpwCAZ3YXNlZGEIA0tFWQgIos868A4Bt9AIAk5BNggAAAGOAWlWPhQJGAECGQQANu6AFVswWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAATGRWrnpWD+bZAZfF1po31pln9NejrIxA3M4BS2XFAwAKPOiZ+wO5DXlzBjMTurKL3h2RxOmpprh6JnoxhzQ8lIFlQbAQMcJQcjCANuZG4IA0tFWQgIJ8SyKp97gScIA25kbjYIAAABgHX6c7T9AP0m/QD+DzIwMjQwMzAyVDIzMDQyNf0A/w8yMDI1MDMwMlQyMzA0MjQXRjBEAiA0WEJPvf/PrNO2Cv8ogqzSn/ipvzGEifiJgCd91nskwgIgIsyLnfGcdoVKqoS+Omgvbg3nY9iZMAU8hmM/PfLGtZs=",
+      "policy-type": "email",
+      "policy-param": "fuji.waseda.jp"
+    }

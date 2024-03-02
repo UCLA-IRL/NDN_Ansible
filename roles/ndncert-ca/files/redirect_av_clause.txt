@@ -1,6 +1,0 @@
-{
-    "ca-prefix": "/ndn/pt/it/av",
-    "certificate": "Bv0BKAcuCANuZG4IAnB0CAJpdAgCYXYIA0tFWQgI0S8zDm/LykUIAk5BNggAAAGHNax4EBQJGAECGQQANu6AFVswWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARKyOxXzxT2AI4G3KkgGru45k7JH7qeD90Hwstgrn2Tll1eTyICnsm3D49NkgBm8pSQRex5I0iaerrmI8qcJBHgFkUbAQMcFgcUCANuZG4IA0tFWQgIJ8SyKp97gSf9AP0m/QD+DzIwMjMwMzMxVDAzMTgyOf0A/w8yMDI0MDMzMFQwMzE4MjgXRzBFAiEAi1mCOR78qEEvj7iZVPBRTJ9QPnbI17MQPLAfMr+DJv8CIBmYrIMh2jBlx3Xa555tGxfNyYr8b5WoqsbRWDPQgDqt",
-    "policy-type": "email",
-    "policy-param": "av.it.pt"
-}

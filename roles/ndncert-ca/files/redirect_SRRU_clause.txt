@@ -1,0 +1,6 @@
+    {
+      "ca-prefix": "/ndn/th/ac/srru",
+      "certificate": "Bv0BOAcwCANuZG4IAnRoCAJhYwgEc3JydQgDS0VZCAj4aLVP3WGcfQgCTkE2CAAAAY4BaVMXFAkYAQIZBAA27oAVWzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLD2Pa8MOfGTjuUaskq5SpIw957cww3wEIc2/BTnV6O0fqANEjB/aeP2ksQP5BUaAIt7KUcrs8fuJKCpEXYcVUAWVBsBAxwlByMIA25kbggDS0VZCAgnxLIqn3uBJwgDbmRuNggAAAGAdfpztP0A/Sb9AP4PMjAyNDAzMDJUMjMwNDI0/QD/DzIwMjUwMzAyVDIzMDQyMxdGMEQCIFZOlaowEAP7jwe6wFk57uqRJk42p3RaM+1/o6AQIcKmAiBQgHKIkfaa1dVAMIKAX+j8I29Smo53CGePKxE4k4eD/w==",
+      "policy-type": "email",
+      "policy-param": "srru.ac.th"
+    }

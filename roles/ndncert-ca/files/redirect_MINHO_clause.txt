@@ -1,0 +1,12 @@
+    {
+      "ca-prefix": "/ndn/pt/uminho",
+      "certificate": "Bv0BOAcuCANuZG4IAnB0CAZ1bWluaG8IA0tFWQgIsQIcSCNk5WUIAk5BNggAAAGOAWlSkBQJGAECGQQANu6AFVswWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAS3aK3T7JPtdTSQGsvtR2V0Sy+8Vghf9HjcYOa+YvUWUEw2QOdd2ZfLd497uBQJZTkmNhfSoU+5PoMfUuK8uHSVFlQbAQMcJQcjCANuZG4IA0tFWQgIJ8SyKp97gScIA25kbjYIAAABgHX6c7T9AP0m/QD+DzIwMjQwMzAyVDIzMDQyNP0A/w8yMDI1MDMwMlQyMzA0MjMXSDBGAiEAkvu0den8XC3box3aduJn/qujEKDrSjuHcaI0fIzaxSkCIQChVx9zuyFqMi8R9FDZihPss7wnM4UIbFmltbMdY3gLUw==",
+      "policy-type": "email",
+      "policy-param": "di.minho.pt"
+    },
+    {
+      "ca-prefix": "/ndn/pt/uminho",
+      "certificate": "Bv0BOAcuCANuZG4IAnB0CAZ1bWluaG8IA0tFWQgIsQIcSCNk5WUIAk5BNggAAAGOAWlSkBQJGAECGQQANu6AFVswWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAS3aK3T7JPtdTSQGsvtR2V0Sy+8Vghf9HjcYOa+YvUWUEw2QOdd2ZfLd497uBQJZTkmNhfSoU+5PoMfUuK8uHSVFlQbAQMcJQcjCANuZG4IA0tFWQgIJ8SyKp97gScIA25kbjYIAAABgHX6c7T9AP0m/QD+DzIwMjQwMzAyVDIzMDQyNP0A/w8yMDI1MDMwMlQyMzA0MjMXSDBGAiEAkvu0den8XC3box3aduJn/qujEKDrSjuHcaI0fIzaxSkCIQChVx9zuyFqMi8R9FDZihPss7wnM4UIbFmltbMdY3gLUw==",
+      "policy-type": "email",
+      "policy-param": "alunos.uminho.pt"
+    }

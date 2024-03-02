@@ -1,0 +1,6 @@
+    {
+      "ca-prefix": "/ndn/edu/neu",
+      "certificate": "Bv0BNQcsCANuZG4IA2VkdQgDbmV1CANLRVkICJ76hzbAQ6tDCAJOQTYIAAABjgFpUusUCRgBAhkEADbugBVbMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEEqPiGmpIPUtWkAwvS6GXp7ejdaYRJCVFjPIAvUiZnRHcDYUU8Uf1nQeiLk1ZoXRDMY9jAUrtAQkBVCzKUaHjsRZUGwEDHCUHIwgDbmRuCANLRVkICCfEsiqfe4EnCANuZG42CAAAAYB1+nO0/QD9Jv0A/g8yMDI0MDMwMlQyMzA0MjT9AP8PMjAyNTAzMDJUMjMwNDIzF0cwRQIgW2eTO5PWStFtrCy/5gonLiKIxxV+zKFWsMcDCNV6TwYCIQDexi9+6CshhkbIojwCDA+0SsPtxzZm7OqP+NAWTZ34aA==",
+      "policy-type": "email",
+      "policy-param": "neu.edu"
+    }

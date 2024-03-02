@@ -1,0 +1,6 @@
+    {
+      "ca-prefix": "/ndn/in/ac/iiith",
+      "certificate": "Bv0BOwcxCANuZG4IAmluCAJhYwgFaWlpdGgIA0tFWQgIk2PdzjqDH1AIAk5BNggAAAGOAWlMfBQJGAECGQQANu6AFVswWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAR7k0er64BMeAsp4mKsG/+h5Af3x/2JSOSpWzmgOdydMSu0Ww2Qh6DByTC0VnPPsNc2+kzz4hev2pNYdv3EGxaPFlQbAQMcJQcjCANuZG4IA0tFWQgIJ8SyKp97gScIA25kbjYIAAABgHX6c7T9AP0m/QD+DzIwMjQwMzAyVDIzMDQyMv0A/w8yMDI1MDMwMlQyMzA0MjEXSDBGAiEAuFaIEkD8ZGN1UTp0WSk896BI4OhpLsK4xh/cWaHP+ScCIQCPkZpArAWKPulPqend18B+jxUmZMUmdNM512+xZ8VAUA==",
+      "policy-type": "email",
+      "policy-param": "iiit.ac.in"
+    }

@@ -1,6 +1,0 @@
-{
-    "ca-prefix": "/ndn/it/afasystems",
-    "certificate": "Bv0BLAcyCANuZG4IAml0CAphZmFzeXN0ZW1zCANLRVkICAjpadaXgqafCAJOQTYIAAABhzWsd/0UCRgBAhkEADbugBVbMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEDAn4fhwwuN57CAIaMzqMOFtHg4ImrYWXNhy3ISavyb2gHbuRIoobsbMMkIo01DUMp1JEWrz7cmK376uNfXmdfhZFGwEDHBYHFAgDbmRuCANLRVkICCfEsiqfe4En/QD9Jv0A/g8yMDIzMDMzMVQwMzE4Mjn9AP8PMjAyNDAzMzBUMDMxODI4F0cwRQIgS0vthQiHAk1vk/A3CKNOv/VUY6tDomrEtQ144T8PNYgCIQCx9JVTbwDXdxjq0EX5Q8HpavPOa1LP9d3FKnxmbtgkFw==",
-    "policy-type": "email",
-    "policy-param": "afasystems.it"
-}
