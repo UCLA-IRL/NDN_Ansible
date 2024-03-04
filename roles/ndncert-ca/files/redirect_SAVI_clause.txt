@@ -1,0 +1,12 @@
+    {
+      "ca-prefix": "/ndn/ca/utoronto",
+      "certificate": "Bv0BOQcwCANuZG4IAmNhCAh1dG9yb250bwgDS0VZCAhV++Lt4LEitwgCTkE2CAAAAY4HlxLoFAkYAQIZBAA27oAVWzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABODYF/I+8qGTct77W/jOKSz1MjtuNBzwE9iCq/ybEai4ifsfcQbAVWPYDHlxZOWjbg+SvNzbyiC1GszerXMz+YgWVBsBAxwlByMIA25kbggDS0VZCAgnxLIqn3uBJwgDbmRuNggAAAGAdfpztP0A/Sb9AP4PMjAyNDAzMDRUMDM1MjA2/QD/DzIwMjUwMzA0VDAzNTIwNRdHMEUCIAtTpmFFa9R8wO3vHu5yaHMh5bQAvCyzOCrhA6LgS6W3AiEAjEdFElwWffg4Voq1G79Ux+d1VcHJ5cyLDEFbpHBgtMM=",
+      "policy-type": "email",
+      "policy-param": "utoronto.ca"
+    },
+    {
+      "ca-prefix": "/ndn/ca/utoronto",
+      "certificate": "Bv0BOQcwCANuZG4IAmNhCAh1dG9yb250bwgDS0VZCAhV++Lt4LEitwgCTkE2CAAAAY4HlxLoFAkYAQIZBAA27oAVWzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABODYF/I+8qGTct77W/jOKSz1MjtuNBzwE9iCq/ybEai4ifsfcQbAVWPYDHlxZOWjbg+SvNzbyiC1GszerXMz+YgWVBsBAxwlByMIA25kbggDS0VZCAgnxLIqn3uBJwgDbmRuNggAAAGAdfpztP0A/Sb9AP4PMjAyNDAzMDRUMDM1MjA2/QD/DzIwMjUwMzA0VDAzNTIwNRdHMEUCIAtTpmFFa9R8wO3vHu5yaHMh5bQAvCyzOCrhA6LgS6W3AiEAjEdFElwWffg4Voq1G79Ux+d1VcHJ5cyLDEFbpHBgtMM=",
+      "policy-type": "email",
+      "policy-param": "mail.utoronto.ca"
+    }
