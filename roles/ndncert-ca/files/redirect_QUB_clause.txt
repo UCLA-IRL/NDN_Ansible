@@ -1,0 +1,6 @@
+    {
+      "ca-prefix": "/ndn/uk/ac/qub",
+      "certificate": "Bv0BOAcvCANuZG4IAnVrCAJhYwgDcXViCANLRVkICPIJbbSFWm96CAJOQTYIAAABjhD24y8UCRgBAhkEADbugBVbMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE4erVtk/SVJ+nmjUxmEJerU08tZaLj1PI9v6rKTKzbMmRtTpJp3TXECO56VIrYzDtEJLwC2y4U+k6jcsVcqQxsBZUGwEDHCUHIwgDbmRuCANLRVkICCfEsiqfe4EnCANuZG42CAAAAYB1+nO0/QD9Jv0A/g8yMDI0MDMwNVQyMzMzMjD9AP8PMjAyNTAzMDVUMjMzMzE5F0cwRQIgBWUX1qUTQVf4AKwS8GfMnUZfMiSUysX75U98mZxd8E0CIQDae5+zVwgPfOgPK2+2y3xYWdK1CURgodP26xlbtl/iPA==",
+      "policy-type": "email",
+      "policy-param": "qub.ac.uk"
+    }
