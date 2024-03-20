@@ -1,0 +1,6 @@
+    {
+      "ca-prefix": "/ndn/pt/it/av",
+      "certificate": "Bv0BNwcuCANuZG4IAnB0CAJpdAgCYXYIA0tFWQgItlIUx6LRVSYIAk5BNggAAAGOWILtHhQJGAECGQQANu6AFVswWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAR9i6KcKwZdAwSYVLAY+Uiyy8y0oB3hrh1QwDMavVapabX8xWTjsjlZFD1TRvuWG1FF88eG9cbt+P7DQMXKgUliFlQbAQMcJQcjCANuZG4IA0tFWQgIJ8SyKp97gScIA25kbjYIAAABgHX6c7T9AP0m/QD+DzIwMjQwMzE5VDIwNTkyMP0A/w8yMDI1MDMxOVQyMDU5MTkXRzBFAiEArVtbTQsRrFxUZw/2DEBrnCHqd7gfwfyEHhWCsGSrmvUCIBAswvHX3epTK4uwDpREeyVh1upV4IaV3mq3iN2q4GjZ",
+      "policy-type": "email",
+      "policy-param": "av.it.pt"
+    }

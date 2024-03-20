@@ -3,7 +3,7 @@
 # file: host_vars/AVEIRO
 ansible_host: selficn.av.it.pt
 host_ip: 193.136.92.155
-local_ip: 193.136.92.155
+local_ip: 10.0.12.127
 ethernet_device: ens18
 site: /pt/it/av
 default_prefix: /ndn/pt/it/av 
